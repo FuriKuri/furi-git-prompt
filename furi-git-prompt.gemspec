@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = %w(tf.pack@googlemail.com)
   spec.description   = 'Prompt for git with all interesting informations'
   spec.summary       = 'Git prompt'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/FuriKuri/furi-git-prompt'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
