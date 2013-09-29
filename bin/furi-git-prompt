@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'furi/git/prompt'
+puts Prompt.new.branch
