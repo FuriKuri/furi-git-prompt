@@ -1,6 +1,6 @@
 require_relative 'git_system_call'
 
-class Prompt
+class Git
   def initialize
     @git_system = GitSystemCall.new
   end

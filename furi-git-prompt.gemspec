@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Furi::Git::Prompt::VERSION
   spec.authors       = ['Theo Pack']
   spec.email         = %w(tf.pack@googlemail.com)
-  spec.description   = 'Prompt for git with all interesting informations'
+  spec.description   = 'Git for git with all interesting informations'
   spec.summary       = 'Git prompt'
   spec.homepage      = 'https://github.com/FuriKuri/furi-git-prompt'
   spec.license       = 'MIT'

@@ -1,11 +1,11 @@
 require 'rspec'
 
-require_relative '../../../lib/furi/git/prompt'
+require_relative '../../../lib/furi/git/git'
 
-describe Prompt do
+describe Git do
 
   it 'show current branch name of a git repository' do
     GitSystemCall.any_instance.stub(:git_branch).and_return('master')
-    Prompt.new.branch.should == 'master'
+    Git.new.branch.should == 'master'
   end
 end
