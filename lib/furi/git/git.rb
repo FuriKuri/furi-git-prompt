@@ -6,6 +6,11 @@ class Git
   end
 
   def branch
-    @git_system.git_branch.match(/\* ([^\s.]*)/i).captures[0]
+    git_branch_match = @git_system.git_branch.match(/\* ([^\s.]*)/i)
+    if git_branch_match
+      git_branch_match.captures[0]
+    else
+      ''
+    end
   end
 end

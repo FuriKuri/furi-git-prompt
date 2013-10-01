@@ -1,7 +1,7 @@
 module Furi
   module Git
     module Prompt
-      VERSION = '0.0.5'
+      VERSION = '0.0.7'
     end
   end
 end

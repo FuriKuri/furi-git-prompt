@@ -25,4 +25,11 @@ describe Git do
     end
   end
 
+  context 'no git repository exist' do
+    it 'shows nothing' do
+      GitSystemCall.any_instance.stub(:git_branch).and_return("fatal: Not a git repository (or any of the parent directories): .git\n")
+      Git.new.branch.should be_empty
+    end
+  end
+
 end
