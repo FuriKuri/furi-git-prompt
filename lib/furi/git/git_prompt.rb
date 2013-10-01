@@ -1,5 +1,5 @@
-require_relative 'prompt/version'
-require_relative 'git'
+require 'furi/git/prompt/version'
+require 'furi/git/git'
 
 module GitPrompt
   def self.branch

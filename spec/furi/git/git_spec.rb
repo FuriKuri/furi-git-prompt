@@ -1,6 +1,6 @@
 require 'rspec'
 
-require_relative '../../../lib/furi/git/git'
+require 'furi/git/git'
 
 describe Git do
 

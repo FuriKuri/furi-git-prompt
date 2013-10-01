@@ -1,4 +1,4 @@
-require_relative 'git_system_call'
+require 'furi/git/git_system_call'
 
 class Git
   def initialize
