@@ -5,3 +5,4 @@ require 'furi/git/git_prompt'
 
 puts GitPrompt.version
 puts GitPrompt.branch
+puts GitPrompt.added_files
